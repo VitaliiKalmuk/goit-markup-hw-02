@@ -39,7 +39,7 @@ body {
   text-decoration: none;
 }
 
-/* .header-logo > span {
+.header-logo > span {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -53,7 +53,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-} */
+}
 
 .header-list {
   list-style: none;
@@ -105,6 +105,8 @@ body {
   flex-grow: 0;
   background: #4d5ae5;
   margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /* --- BENEFITS --- */
@@ -133,67 +135,133 @@ body {
 
 /* --- WORK ---- */
 
-.work {
-}
+/* .work {
+} */
 
 .work-title {
-    font-weight: 600;
-font-size: 36px;
-line-height: calc(40 / 36);
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .work-list {
-    list-style: none;
+  list-style: none;
 }
 
 /* --- TEAM ---- */
 
 .team {
-    background: #F4F4FD;
+  background: #f4f4fd;
 }
 
 .team-title {
-font-weight: 600;
-font-size: 36px;
-line-height: calc(40 / 36);
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-list {
-    list-style: none;
+  list-style: none;
 }
 
 .team-member {
-font-weight: 600;
-font-size: 20px;
-line-height: calc(24 / 16);
-text-align: center;
-letter-spacing: 0.02em;
-color: #2E2F42;
-flex: none;
-order: 0;
-flex-grow: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24 / 16);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .team-job {
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-letter-spacing: 0.02em;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
-/* ---------------PORTFOLIO---------------- */
+/* --------------- P O R T F O L I O---------------- */
 
+/* ---PRODUCTS---- */
+.products-list {
+  list-style: none;
+}
 
+.products-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+
+.products-button:hover {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.products-button:focus {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+/* ---GALLERY--- */
+
+.gallery-list {
+  list-style: none;
+}
+
+.gallery-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.gallery-product {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 /* --- FOOTER --- */
 
@@ -216,6 +284,19 @@ footer {
   order: 1;
   flex-grow: 0;
   text-decoration: none;
+}
+
+.footer-logo > span {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: calc(21 / 18);
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
 }
 
 .footer-abstract {
